@@ -1,0 +1,21 @@
+pipeline{
+   agent any{
+    stages{
+      stage("stage1"){
+        steps{
+          echo "stage1 running"
+        }
+      }
+      stage("stage2"){
+        steps{
+          echo "stage2 running"
+        }
+      }
+      stage("stage3"){
+        steps{
+          echo "stage3 running"
+         }
+      }
+    }
+   }
+}
